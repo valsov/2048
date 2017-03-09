@@ -1,0 +1,30 @@
+﻿<Window x:Class="_2048.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_2048"
+        mc:Ignorable="d"
+        KeyDown="Window_KeyDown"
+        Title="MainWindow" Height="587" Width="850">
+    <Grid>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="112" Margin="38,44,0,0" VerticalAlignment="Top" Width="112"/>
+        <Image x:Name="image2" HorizontalAlignment="Left" Height="112" Margin="160,44,0,0" VerticalAlignment="Top" Width="112"/>
+        <Image x:Name="image3" HorizontalAlignment="Left" Height="112" Margin="282,44,0,0" VerticalAlignment="Top" Width="112"/>
+        <Image x:Name="image4" HorizontalAlignment="Left" Height="112" Margin="404,44,0,0" VerticalAlignment="Top" Width="112"/>
+        <Image x:Name="image5" HorizontalAlignment="Left" Height="112" Margin="38,166,0,0" VerticalAlignment="Top" Width="112"/>
+        <Image x:Name="image6" HorizontalAlignment="Left" Height="112" Margin="160,166,0,0" VerticalAlignment="Top" Width="112"/>
+        <Image x:Name="image7" HorizontalAlignment="Left" Height="112" Margin="282,166,0,0" VerticalAlignment="Top" Width="112"/>
+        <Image x:Name="image8" HorizontalAlignment="Left" Height="112" Margin="404,166,0,0" VerticalAlignment="Top" Width="112"/>
+        <Image x:Name="image9" HorizontalAlignment="Left" Height="112" Margin="38,288,0,0" VerticalAlignment="Top" Width="112"/>
+        <Image x:Name="image10" HorizontalAlignment="Left" Height="112" Margin="160,288,0,0" VerticalAlignment="Top" Width="112"/>
+        <Image x:Name="image11" HorizontalAlignment="Left" Height="112" Margin="282,288,0,0" VerticalAlignment="Top" Width="112"/>
+        <Image x:Name="image12" HorizontalAlignment="Left" Height="112" Margin="404,288,0,0" VerticalAlignment="Top" Width="112"/>
+        <Image x:Name="image13" HorizontalAlignment="Left" Height="112" Margin="38,410,0,0" VerticalAlignment="Top" Width="112"/>
+        <Image x:Name="image14" HorizontalAlignment="Left" Height="112" Margin="160,410,0,0" VerticalAlignment="Top" Width="112"/>
+        <Image x:Name="image15" HorizontalAlignment="Left" Height="112" Margin="282,410,0,0" VerticalAlignment="Top" Width="112"/>
+        <Image x:Name="image16" HorizontalAlignment="Left" Height="112" Margin="404,410,0,0" VerticalAlignment="Top" Width="112"/>
+
+        <Button x:Name="newGameButton" Click="newGameButton_Click" Content="New Game" FontSize="20px" HorizontalAlignment="Center" Height="50" Margin="664,254,52,0" VerticalAlignment="Top" Width="126"/>
+    </Grid>
+</Window>
